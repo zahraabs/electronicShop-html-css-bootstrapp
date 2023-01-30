@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'welearn';
+    src: url(../assets/fonts/IRANSansXFaNum-Black.woff) format(woff);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'welearn';
+    src: url(../assets/fonts/IRANSansXFaNum-ExtraBold.woff) format(woff);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'welearn';
+    src: url(../assets/fonts/IRANSansXFaNum-Bold.woff) format(woff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'welearn';
+    src: url(../assets/fonts/IRANSansXFaNum-Medium.woff) format(woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'welearn';
+    src: url(../assets/fonts/IRANSansXFaNum-Regular.woff) format(woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'welearn';
+    src: url(../assets/fonts/IRANSansXFaNum-Thin.woff) format(woff);
+    font-weight: 200;
+}
+
+
+body{
+    font-family: 'welearn' ,'Myriad Pro' ,'Tahoma';
+}
