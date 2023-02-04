@@ -7,17 +7,17 @@ $(document).ready(function(){
 });
 
 const swiper = new Swiper('.swiper', {
-    direction: 'vertical',
-    loop: true,
-    pagination: {
-      el: '.swiper-pagination',
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
+  loop: true,
+    slidesPerView: 2,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
   });
 

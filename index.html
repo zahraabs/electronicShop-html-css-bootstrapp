@@ -18,13 +18,17 @@
       rel="stylesheet"
       href="../../../fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- header section -->
     <header>
       <!-- header top section -->
-      <div class="header--top">
+      <section class="header--top">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -43,10 +47,9 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="clearfix"></div>
+      </section>
       <!-- header main section -->
-      <div class="header--main">
+      <section class="header--main">
         <div class="container">
           <div class="row">
             <nav class="col-md-11">
@@ -151,10 +154,10 @@
             /></a>
           </div>
         </div>
-      </div>
-      <div class="clearfix"></div>
+      </section>
+      <!-- header bottom section -->
       <div class="container">
-        <div class="header--bottom shadow--around">
+        <section class="header--bottom shadow--around">
           <div class="col-md-6">
             <ul class="social">
               <li>
@@ -171,10 +174,11 @@
               </li>
             </ul>
           </div>
-        </div>
+        </section>
       </div>
     </header>
-    <div class="clearfix"></div>
+    <!-- end header section -->
+    <!-- slider section -->
     <section id="slider">
       <div class="slider">
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -256,7 +260,7 @@
         </div>
       </div>
     </section>
-    <div class="clearfix"></div>
+    <!-- services section -->
     <section id="services">
       <div class="services shadow--bottom">
         <div class="container">
@@ -293,7 +297,7 @@
         </div>
       </div>
     </section>
-    <div class="clearfix"></div>
+    <!-- new product section -->
     <section id="new--product">
       <div class="new--product">
         <div class="container">
@@ -603,7 +607,7 @@
         </div>
       </div>
     </section>
-    <div class="clearfix"></div>
+    <!-- sale time out section -->
     <div class="container">
       <section class="sale--timeout">
         <div class="sale--inner">
@@ -619,336 +623,505 @@
         </div>
       </section>
     </div>
-    <div class="clearfix"></div>
-    <!-- <div class="swiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="./assets/images/4.jpg" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="./assets/images/3.jpg" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="./assets/images/2.jpg" alt="">
-        </div>
-      </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-scrollbar"></div>
-    </div>
-    <div class="clearfix"></div> -->
+    <!-- new product section -->
     <section id="new--product">
       <div class="new--product">
         <div class="container">
           <div class="row">
-              <div class="title">
-                <h2>پر فروش  ترین محصولات</h2>
-                <sub>به روز شده 30 دی ماه 1401</sub>
-              </div>
-              <div
-                id="myCarousel-third"
-                class="carousel slide"
-                data-bs-ride="carousel"
-              >
-                <ol class="carousel-indicators">
-                  <li
-                    data-bs-target="#myCarousel-third"
-                    data-bs-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li
-                    data-bs-target="#myCarousel-third"
-                    data-bs-slide-to="1"
-                  ></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <div class="product shadow--around">
-                          <figure>
-                            <a href="#"
-                              ><img
+            <div class="title">
+              <h2>پر فروش ترین محصولات</h2>
+              <sub>به روز شده 30 دی ماه 1401</sub>
+            </div>
+            <div
+              id="myCarousel-third"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-bs-target="#myCarousel-third"
+                  data-bs-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-bs-target="#myCarousel-third"
+                  data-bs-slide-to="1"
+                ></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="product shadow--around">
+                        <figure>
+                          <a href="#"
+                            ><img
                               src="./assets/images/iphon.png"
-                                alt="iphone"
-                                class="img-fluid"
-                            /></a>
-                            <figcaption>
-                              <ul>
-                                <li>
-                                  <a href="#"><i class="fa fa-heart"></i></a>
-                                </li>
-                                <li>
-                                  <a href="#"><i class="fa fa-user"></i></a>
-                                </li>
-                              </ul>
-                            </figcaption>
-                          </figure>
-                          <div class="product--content">
-                            <h2><a href="#">iphone 14 pro 128GB</a></h2>
-                            <div class="color__op">
-                              <ul>
-                                <li><a href="#">سفید</a></li>
-                                <li><a href="#">مشکی</a></li>
-                                <li><a href="#">سبز</a></li>
-                              </ul>
-                            </div>
-                            <span class="price">80,000,000 تومان</span>
-                            <a href="#">
-                              <div class="product__buy">خرید آنلاین</div>
-                            </a>
+                              alt="iphone"
+                              class="img-fluid"
+                          /></a>
+                          <figcaption>
+                            <ul>
+                              <li>
+                                <a href="#"><i class="fa fa-heart"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa fa-user"></i></a>
+                              </li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                        <div class="product--content">
+                          <h2><a href="#">iphone 14 pro 128GB</a></h2>
+                          <div class="color__op">
+                            <ul>
+                              <li><a href="#">سفید</a></li>
+                              <li><a href="#">مشکی</a></li>
+                              <li><a href="#">سبز</a></li>
+                            </ul>
                           </div>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="product shadow--around">
-                          <figure>
-                            <a href="#"
-                              ><img
-                              src="./assets/images/iphon.png"
-                                alt="iphone"
-                                class="img-fluid"
-                            /></a>
-                            <figcaption>
-                              <ul>
-                                <li>
-                                  <a href="#"><i class="fa fa-heart"></i></a>
-                                </li>
-                                <li>
-                                  <a href="#"><i class="fa fa-user"></i></a>
-                                </li>
-                              </ul>
-                            </figcaption>
-                          </figure>
-                          <div class="product--content">
-                            <h2><a href="#">iphone 14 pro 128GB</a></h2>
-                            <div class="color__op">
-                              <ul>
-                                <li><a href="#">سفید</a></li>
-                                <li><a href="#">مشکی</a></li>
-                                <li><a href="#">سبز</a></li>
-                              </ul>
-                            </div>
-                            <span class="price">80,000,000 تومان</span>
-                            <a href="#">
-                              <div class="product__buy">خرید آنلاین</div>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="product shadow--around">
-                          <figure>
-                            <a href="#"
-                              ><img
-                                src="./assets/images/download.png"
-                                alt="iphone"
-                                class="img-fluid"
-                            /></a>
-                            <figcaption>
-                              <ul>
-                                <li>
-                                  <a href="#"><i class="fa fa-heart"></i></a>
-                                </li>
-                                <li>
-                                  <a href="#"><i class="fa fa-user"></i></a>
-                                </li>
-                              </ul>
-                            </figcaption>
-                          </figure>
-                          <div class="product--content">
-                            <h2><a href="#">iphone 13 128GB</a></h2>
-                            <div class="color__op">
-                              <ul>
-                                <li><a href="#">سفید</a></li>
-                                <li><a href="#">مشکی</a></li>
-                                <li><a href="#">سبز</a></li>
-                              </ul>
-                            </div>
-                            <span class="price">40,000,000 تومان</span>
-                            <a href="#">
-                              <div class="product__buy">خرید آنلاین</div>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="product shadow--around">
-                          <figure>
-                            <a href="#"
-                              ><img
-                              src="./assets/images/iphon.png"
-                                alt="iphone"
-                                class="img-fluid"
-                            /></a>
-                            <figcaption>
-                              <ul>
-                                <li>
-                                  <a href="#"><i class="fa fa-heart"></i></a>
-                                </li>
-                                <li>
-                                  <a href="#"><i class="fa fa-user"></i></a>
-                                </li>
-                              </ul>
-                            </figcaption>
-                          </figure>
-                          <div class="product--content">
-                            <h2><a href="#">iphone 14 pro 128GB</a></h2>
-                            <div class="color__op">
-                              <ul>
-                                <li><a href="#">سفید</a></li>
-                                <li><a href="#">مشکی</a></li>
-                                <li><a href="#">سبز</a></li>
-                              </ul>
-                            </div>
-                            <span class="price">80,000,000 تومان</span>
-                            <a href="#">
-                              <div class="product__buy">خرید آنلاین</div>
-                            </a>
-                          </div>
+                          <span class="price">80,000,000 تومان</span>
+                          <a href="#">
+                            <div class="product__buy">خرید آنلاین</div>
+                          </a>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <div class="product shadow--around">
-                          <figure>
-                            <a href="#"
-                              ><img
+                    <div class="col-md-3">
+                      <div class="product shadow--around">
+                        <figure>
+                          <a href="#"
+                            ><img
                               src="./assets/images/iphon.png"
-                                alt="iphone"
-                                class="img-fluid"
-                            /></a>
-                            <figcaption>
-                              <ul>
-                                <li>
-                                  <a href="#"><i class="fa fa-heart"></i></a>
-                                </li>
-                                <li>
-                                  <a href="#"><i class="fa fa-user"></i></a>
-                                </li>
-                              </ul>
-                            </figcaption>
-                          </figure>
-                          <div class="product--content">
-                            <h2><a href="#">iphone 14 pro 128GB</a></h2>
-                            <div class="color__op">
-                              <ul>
-                                <li><a href="#">سفید</a></li>
-                                <li><a href="#">مشکی</a></li>
-                                <li><a href="#">سبز</a></li>
-                              </ul>
-                            </div>
-                            <span class="price">80,000,000 تومان</span>
-                            <a href="#">
-                              <div class="product__buy">خرید آنلاین</div>
-                            </a>
+                              alt="iphone"
+                              class="img-fluid"
+                          /></a>
+                          <figcaption>
+                            <ul>
+                              <li>
+                                <a href="#"><i class="fa fa-heart"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa fa-user"></i></a>
+                              </li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                        <div class="product--content">
+                          <h2><a href="#">iphone 14 pro 128GB</a></h2>
+                          <div class="color__op">
+                            <ul>
+                              <li><a href="#">سفید</a></li>
+                              <li><a href="#">مشکی</a></li>
+                              <li><a href="#">سبز</a></li>
+                            </ul>
                           </div>
+                          <span class="price">80,000,000 تومان</span>
+                          <a href="#">
+                            <div class="product__buy">خرید آنلاین</div>
+                          </a>
                         </div>
                       </div>
-                      <div class="col-md-3">
-                        <div class="product shadow--around">
-                          <figure>
-                            <a href="#"
-                              ><img
-                                src="./assets/images/download.png"
-                                alt="iphone"
-                                class="img-fluid"
-                            /></a>
-                            <figcaption>
-                              <ul>
-                                <li>
-                                  <a href="#"><i class="fa fa-heart"></i></a>
-                                </li>
-                                <li>
-                                  <a href="#"><i class="fa fa-user"></i></a>
-                                </li>
-                              </ul>
-                            </figcaption>
-                          </figure>
-                          <div class="product--content">
-                            <h2><a href="#">iphone 13 128GB</a></h2>
-                            <div class="color__op">
-                              <ul>
-                                <li><a href="#">سفید</a></li>
-                                <li><a href="#">مشکی</a></li>
-                                <li><a href="#">سبز</a></li>
-                              </ul>
-                            </div>
-                            <span class="price">40,000,000 تومان</span>
-                            <a href="#">
-                              <div class="product__buy">خرید آنلاین</div>
-                            </a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="product shadow--around">
+                        <figure>
+                          <a href="#"
+                            ><img
+                              src="./assets/images/download.png"
+                              alt="iphone"
+                              class="img-fluid"
+                          /></a>
+                          <figcaption>
+                            <ul>
+                              <li>
+                                <a href="#"><i class="fa fa-heart"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa fa-user"></i></a>
+                              </li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                        <div class="product--content">
+                          <h2><a href="#">iphone 13 128GB</a></h2>
+                          <div class="color__op">
+                            <ul>
+                              <li><a href="#">سفید</a></li>
+                              <li><a href="#">مشکی</a></li>
+                              <li><a href="#">سبز</a></li>
+                            </ul>
                           </div>
+                          <span class="price">40,000,000 تومان</span>
+                          <a href="#">
+                            <div class="product__buy">خرید آنلاین</div>
+                          </a>
                         </div>
                       </div>
-                      <div class="col-md-3">
-                        <div class="product shadow--around">
-                          <figure>
-                            <a href="#"
-                              ><img
-                                src="./assets/images/iphon.png"
-                                alt="iphone"
-                                class="img-fluid"
-                            /></a>
-                            <figcaption>
-                              <ul>
-                                <li>
-                                  <a href="#"><i class="fa fa-heart"></i></a>
-                                </li>
-                                <li>
-                                  <a href="#"><i class="fa fa-user"></i></a>
-                                </li>
-                              </ul>
-                            </figcaption>
-                          </figure>
-                          <div class="product--content">
-                            <h2><a href="#">iphone 14 pro 128GB</a></h2>
-                            <div class="color__op">
-                              <ul>
-                                <li><a href="#">سفید</a></li>
-                                <li><a href="#">مشکی</a></li>
-                                <li><a href="#">سبز</a></li>
-                              </ul>
-                            </div>
-                            <span class="price">80,000,000 تومان</span>
-                            <a href="#">
-                              <div class="product__buy">خرید آنلاین</div>
-                            </a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="product shadow--around">
+                        <figure>
+                          <a href="#"
+                            ><img
+                              src="./assets/images/iphon.png"
+                              alt="iphone"
+                              class="img-fluid"
+                          /></a>
+                          <figcaption>
+                            <ul>
+                              <li>
+                                <a href="#"><i class="fa fa-heart"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa fa-user"></i></a>
+                              </li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                        <div class="product--content">
+                          <h2><a href="#">iphone 14 pro 128GB</a></h2>
+                          <div class="color__op">
+                            <ul>
+                              <li><a href="#">سفید</a></li>
+                              <li><a href="#">مشکی</a></li>
+                              <li><a href="#">سبز</a></li>
+                            </ul>
                           </div>
+                          <span class="price">80,000,000 تومان</span>
+                          <a href="#">
+                            <div class="product__buy">خرید آنلاین</div>
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <button
-                  class="carousel-control-prev previous"
-                  type="button"
-                  data-bs-target="#myCarousel-third"
-                  data-bs-slide="prev"
-                >
-                  <span class="fa fa-chevron-left glyficon"></span>
-                </button>
-                <button
-                  class="carousel-control-next next"
-                  type="button"
-                  data-bs-target="#myCarousel-third"
-                  data-bs-slide="next"
-                >
-                  <span class="fa fa-chevron-right glyficon"></span>
-                </button>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="product shadow--around">
+                        <figure>
+                          <a href="#"
+                            ><img
+                              src="./assets/images/iphon.png"
+                              alt="iphone"
+                              class="img-fluid"
+                          /></a>
+                          <figcaption>
+                            <ul>
+                              <li>
+                                <a href="#"><i class="fa fa-heart"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa fa-user"></i></a>
+                              </li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                        <div class="product--content">
+                          <h2><a href="#">iphone 14 pro 128GB</a></h2>
+                          <div class="color__op">
+                            <ul>
+                              <li><a href="#">سفید</a></li>
+                              <li><a href="#">مشکی</a></li>
+                              <li><a href="#">سبز</a></li>
+                            </ul>
+                          </div>
+                          <span class="price">80,000,000 تومان</span>
+                          <a href="#">
+                            <div class="product__buy">خرید آنلاین</div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="product shadow--around">
+                        <figure>
+                          <a href="#"
+                            ><img
+                              src="./assets/images/download.png"
+                              alt="iphone"
+                              class="img-fluid"
+                          /></a>
+                          <figcaption>
+                            <ul>
+                              <li>
+                                <a href="#"><i class="fa fa-heart"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa fa-user"></i></a>
+                              </li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                        <div class="product--content">
+                          <h2><a href="#">iphone 13 128GB</a></h2>
+                          <div class="color__op">
+                            <ul>
+                              <li><a href="#">سفید</a></li>
+                              <li><a href="#">مشکی</a></li>
+                              <li><a href="#">سبز</a></li>
+                            </ul>
+                          </div>
+                          <span class="price">40,000,000 تومان</span>
+                          <a href="#">
+                            <div class="product__buy">خرید آنلاین</div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="product shadow--around">
+                        <figure>
+                          <a href="#"
+                            ><img
+                              src="./assets/images/iphon.png"
+                              alt="iphone"
+                              class="img-fluid"
+                          /></a>
+                          <figcaption>
+                            <ul>
+                              <li>
+                                <a href="#"><i class="fa fa-heart"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa fa-user"></i></a>
+                              </li>
+                            </ul>
+                          </figcaption>
+                        </figure>
+                        <div class="product--content">
+                          <h2><a href="#">iphone 14 pro 128GB</a></h2>
+                          <div class="color__op">
+                            <ul>
+                              <li><a href="#">سفید</a></li>
+                              <li><a href="#">مشکی</a></li>
+                              <li><a href="#">سبز</a></li>
+                            </ul>
+                          </div>
+                          <span class="price">80,000,000 تومان</span>
+                          <a href="#">
+                            <div class="product__buy">خرید آنلاین</div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+              <button
+                class="carousel-control-prev previous"
+                type="button"
+                data-bs-target="#myCarousel-third"
+                data-bs-slide="prev"
+              >
+                <span class="fa fa-chevron-left glyficon"></span>
+              </button>
+              <button
+                class="carousel-control-next next"
+                type="button"
+                data-bs-target="#myCarousel-third"
+                data-bs-slide="next"
+              >
+                <span class="fa fa-chevron-right glyficon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- special ofeers section -->
+    <section id="special--offers">
+      <div class="spcial--offers">
+        <div class="container">
+          <div class="row">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide offer">
+                  <div class="offer--content">
+                    <h2>ساعت هوشمند</h2>
+                    <p>
+                      چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                      بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+                      برای شرایط ایپسان گرافیک است، چاپگرها و متون بلکه روزنامه
+                      و مجله در ستون و سطرآنچنان که
+                    </p>
+                    <ul>
+                      <li><a href="#" class="btn btn-green">خرید آنلاین</a></li>
+                      <li>
+                        <a href="#" class="btn btn-white">6,000,000 تومان</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src="./assets/images/download (1).png" alt="" />
+                </div>
+                <div class="swiper-slide offer">
+                  <div class="offer--content">
+                    <h2>ساعت هوشمند</h2>
+                    <p>
+                      چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                      بلکه روزنامه واختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+                      با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که
+                    </p>
+                    <ul>
+                      <li><a href="#" class="btn btn-green">خرید آنلاین</a></li>
+                      <li>
+                        <a href="#" class="btn btn-white">6,000,000 تومان</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src="./assets/images/download (2).png" alt="" />
+                </div>
+                <div class="swiper-slide offer">
+                  <div class="offer--content">
+                    <h2>ساعت هوشمند</h2>
+                    <p>
+                      چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                      بلکه روزنامه و مجله د گرافیک است، چاپگرها و متون بلکه
+                      روزنامه و مجله در ستون و سطرآنچنان که
+                    </p>
+                    <ul>
+                      <li><a href="#" class="btn btn-green">خرید آنلاین</a></li>
+                      <li>
+                        <a href="#" class="btn btn-white">6,000,000 تومان</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src="./assets/images/dl3.png" alt="" />
+                </div>
+                <div class="swiper-slide offer">
+                  <div class="offer--content">
+                    <h2>ساعت هوشمند</h2>
+                    <p>
+                      چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                      بلکه روزنامه و مجله در ستون و سطره از طراحان گرافیک است،
+                      چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                    </p>
+                    <ul>
+                      <li><a href="#" class="btn btn-green">خرید آنلاین</a></li>
+                      <li>
+                        <a href="#" class="btn btn-white">6,000,000 تومان</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src="./assets/images/dl4.png" alt="" />
+                </div>
+                <div class="swiper-slide offer">
+                  <div class="offer--content">
+                    <h2>ساعت هوشمند</h2>
+                    <p>
+                      چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                      بلکه روزنامه و از صنعت چاپ، و با استفاده از طراحان گرافیک
+                      است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                      سطرآنچنان که
+                    </p>
+                    <ul>
+                      <li><a href="#" class="btn btn-green">خرید آنلاین</a></li>
+                      <li>
+                        <a href="#" class="btn btn-white">6,000,000 تومان</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <img src="./assets/images/dl5.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sales section -->
+    <section id="sales">
+      <div class="container">
+        <div class="title">
+          <h2>محصولات شگفت انگیز</h2>
+          <sub>به روز شده در 5 بهمن ماه 1401</sub>
+        </div>
+        <div class="sales shadow--around">
+          <div class="row">
+            <div class="col-md-6" >
+              <div class="sales--item">
+                <figure>
+                  <img src="./assets/images/tablet_PNG8567.png" alt="" style="height: 482px;" />
+                </figure>
+                <figcaption>
+                  <a href="#" class="btn btn-blue">خرید آنلاین</a>
+                </figcaption>
+                <h2><a href="#">ایفون 14 پرو مکس </a></h2>
+                <span>69,000,000 تومان</span>
+                <span class="sold-out">79,000,000 تومان</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-6 no-padding">
+                  <div class="sales--item">
+                    <figure>
+                      <img src="./assets/images/iphone_14_PNG1.png" alt="" />
+                    </figure>
+                    <figcaption>
+                      <a href="#" class="btn btn-blue">خرید آنلاین</a>
+                    </figcaption>
+                    <h2><a href="#">ایفون 14 پرو مکس </a></h2>
+                    <span>69,000,000 تومان</span>
+                    <span class="sold-out">79,000,000 تومان</span>
+                  </div>
+                </div>
+                <div class="col-md-6 no-padding">
+                  <div class="sales--item">
+                    <figure>
+                      <img src="./assets/images/iphone_14_PNG1.png" alt="" />
+                    </figure>
+                    <figcaption>
+                      <a href="#" class="btn btn-blue">خرید آنلاین</a>
+                    </figcaption>
+                    <h2><a href="#">ایفون 14 پرو مکس </a></h2>
+                    <span>69,000,000 تومان</span>
+                    <span class="sold-out">79,000,000 تومان</span>
+                  </div>
+                </div>
+                <div class="col-md-6 no-padding">
+                  <div class="sales--item">
+                    <figure>
+                      <img src="./assets/images/iphone_14_PNG1.png" alt="" />
+                    </figure>
+                    <figcaption>
+                      <a href="#" class="btn btn-blue">خرید آنلاین</a>
+                    </figcaption>
+                    <h2><a href="#">ایفون 14 پرو مکس </a></h2>
+                    <span>69,000,000 تومان</span>
+                    <span class="sold-out">79,000,000 تومان</span>
+                  </div>
+                </div>
+                <div class="col-md-6 no-padding">
+                  <div class="sales--item">
+                    <figure>
+                      <img src="./assets/images/iphone_14_PNG1.png" alt="" />
+                    </figure>
+                    <figcaption>
+                      <a href="#" class="btn btn-blue">خرید آنلاین</a>
+                    </figcaption>
+                    <h2><a href="#">ایفون 14 پرو مکس </a></h2>
+                    <span>69,000,000 تومان</span>
+                    <span class="sold-out">79,000,000 تومان</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <script src="./js/jquery-3.6.3.min.js"></script>
     <script src="./js/jquery.simple.timer.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
-    <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
