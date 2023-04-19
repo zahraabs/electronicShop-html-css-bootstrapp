@@ -6,7 +6,7 @@ $(document).ready(function(){
     $(".sale--timeout__counter").startTimer();
 });
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper--offers', {
   loop: true,
     slidesPerView: 2,
       navigation: {
@@ -21,3 +21,34 @@ const swiper = new Swiper('.swiper', {
       },
   });
 
+  const swiper2 = new Swiper('.swiper--customers', {
+    loop: true,
+      slidesPerView: 1,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+    });
+    
+    
+    
+    const swiper3 = new Swiper('.swiper--support', {
+    loop: true,
+      slidesPerView: 5,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+    });
